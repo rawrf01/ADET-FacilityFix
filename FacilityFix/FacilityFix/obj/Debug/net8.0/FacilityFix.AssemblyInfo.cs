@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FacilityFix")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29a05870df6e27be043bcad74cbda9480e8e9c0f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+801812ea8573ffd8bc1bf6ef4bbd232e0909d130")]
 [assembly: System.Reflection.AssemblyProductAttribute("FacilityFix")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FacilityFix")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
