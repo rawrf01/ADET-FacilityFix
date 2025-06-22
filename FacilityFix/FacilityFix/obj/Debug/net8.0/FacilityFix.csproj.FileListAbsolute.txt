@@ -27,7 +27,6 @@ C:\ADET-FacilityFix\ADET-FacilityFix\FacilityFix\FacilityFix\obj\Debug\net8.0\st
 C:\ADET-FacilityFix\ADET-FacilityFix\FacilityFix\FacilityFix\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FacilityFix.props
 C:\ADET-FacilityFix\ADET-FacilityFix\FacilityFix\FacilityFix\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FacilityFix.props
 C:\ADET-FacilityFix\ADET-FacilityFix\FacilityFix\FacilityFix\obj\Debug\net8.0\staticwebassets.pack.json
-C:\ADET-FacilityFix\ADET-FacilityFix\FacilityFix\FacilityFix\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\ADET-FacilityFix\ADET-FacilityFix\FacilityFix\FacilityFix\obj\Debug\net8.0\FacilityFix.dll
 C:\ADET-FacilityFix\ADET-FacilityFix\FacilityFix\FacilityFix\obj\Debug\net8.0\refint\FacilityFix.dll
 C:\ADET-FacilityFix\ADET-FacilityFix\FacilityFix\FacilityFix\obj\Debug\net8.0\FacilityFix.pdb

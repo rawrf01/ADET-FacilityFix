@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets\\FacilityFix.583rx5kor3.bundle.scp.css"
     },
     {
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
+    },
+    {
       "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
       "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\js\\site.js",

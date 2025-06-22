@@ -1,0 +1,86 @@
+@{
+    ViewBag.Title = "Administrator Profile";
+    ViewBag.ActiveMenu = "Profile";
+}
+@section Styles {
+    <link href="~/Content/profile.css" rel="stylesheet" />
+}
+
+<div class="container my-5">
+    <h2 class="fw-semibold mb-4">Administrator Profile</h2>
+    <div class="bg-white p-4 shadow-sm border border-2 rounded border-primary">
+        <div class="fw-semibold fs-5 mb-3">System Administrator</div>
+        <div class="row align-items-center mb-4">
+            <div class="col-md-8 d-flex align-items-center">
+                <img src="/logo" alt="Profile" class="avatar-lg" />
+                <div>
+                    <div class="fw-semibold fs-5">Emirhan Boruch</div>
+                    <div class="text-muted">
+                        System Administrator &nbsp; | &nbsp; Leeds, United Kingdom
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                <span class="status-badge">Active</span>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-8">
+                <div class="bg-light rounded p-3 mb-3">
+                    <div class="fw-semibold mb-3">Personal</div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="text-muted small">First Name</div>
+                            <div class="fw-semibold">Emirhan</div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="text-muted small">Last Name</div>
+                            <div class="fw-semibold">Boruch</div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="text-muted small">Email address</div>
+                            <div class="fw-semibold">emirhanboruch55@gmail.com</div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="text-muted small">Phone</div>
+                            <div class="fw-semibold">+09 363 398 46</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-muted small">Bio</div>
+                            <div class="fw-semibold">Team Manager</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-light rounded p-3 mb-3">
+                    <div class="fw-semibold mb-3">System Access</div>
+                    <ul class="mb-0">
+                        <li>User and Role Management</li>
+                        <li>Calendar</li>
+                        <li>Work Orders</li>
+                    </ul>
+                </div>
+                <div class="mt-3">
+                    <button class="btn btn-outline-secondary me-2 mb-2">Change Password</button>
+                    <button class="btn btn-outline-secondary mb-2">Edit Profile</button>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="bg-light rounded p-3 h-100">
+                    <div class="fw-semibold mb-3">Admin Details</div>
+                    <div class="mb-3">
+                        <div class="text-muted small">Admin Le</div>
+                        <div class="fw-semibold">Super Administrator</div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="text-muted small">Account Status</div>
+                        <div class="fw-semibold">Active</div>
+                    </div>
+                    <div>
+                        <div class="text-muted small">Profile Type</div>
+                        <div class="fw-semibold">Solo Administrator</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
