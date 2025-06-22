@@ -1,4 +1,4 @@
-namespace FacilityFix.Models
+namespace tryMVC.Models
 {
     public class ErrorViewModel
     {

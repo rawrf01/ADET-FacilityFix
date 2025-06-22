@@ -1,0 +1,16 @@
+.status-badge {
+  background: #e8f9ef;
+  color: #34c759;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 7px 22px;
+  border-radius: 999px;
+  display: inline-block;
+}
+.avatar-lg {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 18px;
+}
