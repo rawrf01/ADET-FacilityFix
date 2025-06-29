@@ -1,0 +1,83 @@
+@{
+    ViewBag.Title = "Tenant Profile";
+    ViewBag.ActiveMenu = "Profile";
+}
+@section Styles {
+    <link href="~/Content/TenantProfile.css" rel="stylesheet" />
+}
+
+<div class="container my-5">
+    <h2 class="fw-semibold mb-4">Tenant Profile</h2>
+
+    <div class="bg-white p-4 shadow-sm border border-2 rounded border-secondary p-3"">
+
+        <!-- Profile Header -->
+        <div class="row align-items-center mb-4">
+            <div class="col-md-8 d-flex align-items-center">
+                <img src="/logo" alt="Profile" class="avatar-lg" />
+                <div>
+                    <div class="fw-semibold fs-5">Juan Dela Cruz</div>
+                    <div class="text-muted">
+                        Tenant &nbsp; | &nbsp; Manila, Access Philippines
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                <span class="status-badge">Active</span>
+            </div>
+        </div>
+
+        <!-- Personal Information -->
+        <div class="row g-4">
+            <div class="bg-light rounded p-3 mb-3">
+                    <div class="fw-semibold mb-3">Personal Information</div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="text-muted small">First Name</div>
+                            <div class="fw-semibold">Juan</div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="text-muted small">Last Name</div>
+                            <div class="fw-semibold">Dela Cruz</div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="text-muted small">Email address</div>
+                            <div class="fw-semibold">juand.cruz@gmail.com</div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="text-muted small">Phone</div>
+                            <div class="fw-semibold">+09 363 398 46</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-muted small">Unit Number / Building</div>
+                            <div class="fw-semibold">5A, Tower 2</div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <!-- Contact Person -->
+        <div class="row g-5">
+                <div class="bg-light rounded p-3">
+                    <div class="fw-semibold mb-3">Contact Person</div>
+                    <div class="mb-3">
+                        <div class="text-muted small">Full Name</div>
+                        <div class="fw-semibold">John Dela Cruz</div>
+                    </div>
+                    <div class="mb-3"></div>
+                            <div class="text-muted small">Email address</div>
+                            <div class="fw-semibold">johnd.cruz@gmail.com</div>
+                        <div class="col-md-6 mb-3"></div>
+                            <div class="text-muted small">Phone</div>
+                            <div class="fw-semibold">+09 912 999 124</div>
+                        </div> 
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="mt-4">
+                    <button class="btn btn-outline-secondary me-2 mb-2">Change Password</button>
+                    <button class="btn btn-outline-secondary mb-2">Edit Profile</button>
+                </div>
+  
+    </div>
+</div>

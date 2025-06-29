@@ -2,13 +2,14 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace YourProjectNamespace.Controllers
 {
-    public class HomeController : Controller
+    public class WorkOrderController : Controller
     {
-        public IActionResult AdminHome()
+        public IActionResult RepairRequest()
         {
             return View();
         }
-        public IActionResult TenantHome()
+
+        public IActionResult RepairRequestDetails()
         {
             return View();
         }

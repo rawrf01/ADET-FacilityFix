@@ -1,0 +1,98 @@
+@{
+    ViewBag.Title = "TenantHome";
+    ViewBag.ActiveMenu = "TenantHome";
+}
+@section Styles {
+    <link href="~/Content/TenantHome.css" rel="stylesheet" />
+}
+
+<div class="container my-5">
+    <h2 class="fw-semibold mb-4">Welcome, <span class="h5 mb-0">Tenant Name</span></h2>
+    <h6 class="fw-semibold mb-4">Unit <span class="text-muted">#304</span> Last Login: <span class="text-muted">2023-10-01 12:34 PM</span></h6>
+
+    <div class="row mb-4">
+        <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <h5 class="card-title mb-0">ACTIVE REQUEST</h5>
+                        <img src="~/images/tenant-dashboard.png" alt="Tenant Dashboard" class="img-fluid rounded ms-2" style="max-height: 40px;">
+                    </div>
+                    <p class="card-text mt-3">1</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <h5 class="card-title mb-0">SCHEDULED REPAIRS</h5>
+                        <img src="~/images/tenant-dashboard.png" alt="Tenant Dashboard" class="img-fluid rounded ms-2" style="max-height: 40px;">
+                    </div>
+                    <p class="card-text mt-3">1</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <h5 class="card-title mb-0">LAST REQUEST</h5>
+                        <img src="~/images/tenant-dashboard.png" alt="Tenant Dashboard" class="img-fluid rounded ms-2" style="max-height: 40px;">
+                    </div>
+                    <p class="card-text mt-3">1</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="bg-white p-4 shadow-sm border border-2 rounded border-secondary p-3">
+        <div class="row align-items-center mb-4">
+            <div class="col-md-8 d-flex align-items-center">
+                <div>
+                    <h4 class="fw-semibold">Recent Repair Activity</h4>
+                </div>
+            </div>
+        </div>
+
+            <!-- Request Table -->
+            <table class="table table-bordered align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>#</th>
+                        <th>Title</th>
+                        <th>Staff</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Leaking Faucet</td>
+                        <td>Juan Dela Cruz</td>
+                        <td>2023-10-01</td>
+                        <td><span class="badge bg-warning text-dark">In Progress</span></td>
+                        <td>
+                            <div class="dropdown">
+                                <button class="btn btn-sm btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Actions
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-warning" href="javascript:void(0);">View</a></li>
+                                    <li><a class="dropdown-item text-success" href="javascript:void(0);">Edit</a></li>
+                                    <li><a class="dropdown-item text-danger" href="javascript:void(0);">Delete</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>

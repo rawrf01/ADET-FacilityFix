@@ -4,7 +4,11 @@ namespace YourProjectNamespace.Controllers
 {
     public class ProfileController : Controller
     {
-        public IActionResult Profile()
+        public IActionResult AdminProfile()
+        {
+            return View();
+        }
+        public IActionResult TenantProfile()
         {
             return View();
         }
