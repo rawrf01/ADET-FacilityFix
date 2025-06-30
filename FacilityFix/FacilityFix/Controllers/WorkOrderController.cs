@@ -4,11 +4,11 @@ namespace FacilityFix.Controllers
 {
     public class WorkOrderController : Controller
     {
-        public IActionResult WorkorderAccept()
+        public IActionResult WorkorderAccept()//Admin
         {
             return View();
         }
-        public IActionResult WorkorderView()
+        public IActionResult RepairRequest() //Tenant
         {
             return View();
         }

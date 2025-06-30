@@ -27,6 +27,10 @@ namespace FacilityFix.Controllers
         {
             return View();
         }
+        public IActionResult AdminLogin()
+        {
+            return View();
+        }
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -57,7 +57,32 @@ body {
   pointer-events: none;
 }
 
+.line-with-text {
+  position: relative; /* Essential for positioning the span */
+  text-align: center;
+  margin: 20px 0;
+}
+
+.line-with-text hr {
+  border: none;
+  border-top: 1px solid #ccc; /* The actual line */
+}
+
+.line-with-text span {
+  background-color: #fff; /* Match background color to hide the line underneath */
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust to truly center */
+  padding: 0 15px; /* Padding to create space around "Or" */
+  color: #555;
+  font-size: 0.9em;
+}
+
+
 input.filled + .input-group + .icon-inside {
   opacity: 0;
 }
+
+
 

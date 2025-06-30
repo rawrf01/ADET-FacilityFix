@@ -24,6 +24,14 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEFkbWluX0hvbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/Dashboard/TenantHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXFRlbmFudEhvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/Home/AdminLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbkxvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,20 +48,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/Profile/TenantProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxUZW5hbnRQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/Shared/_TenantLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UZW5hbnRMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/WorkOrder/WorkorderAccept.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya09yZGVyXFdvcmtvcmRlckFjY2VwdC5jc2h0bWw=
+[C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/WorkOrder/RepairRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya09yZGVyXFJlcGFpclJlcXVlc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/WorkOrder/WorkorderView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya09yZGVyXFdvcmtvcmRlclZpZXcuY3NodG1s
+[C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/WorkOrder/WorkorderAccept.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya09yZGVyXFdvcmtvcmRlckFjY2VwdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/_ViewImports.cshtml]

@@ -18,44 +18,60 @@
     </nav>
 
     <!-- Work Orders Card -->
-    <div class="card shadow-sm border border-2 rounded border-primary">
-        <div class="card-header d-flex justify-content-between align-items-center">
-            <h5 class="mb-0">Repair Request</h5>
-            <a href="#" class="text-primary">View All</a>
-        </div>
-        <div class="card-body p-0">
-            <div class="table-responsive">
-                <table class="table table-hover mb-0">
-                    <thead class="table-light">
-                        <tr>
-                            <th scope="col">REQ NUMBER</th>
-                            <th scope="col">DESCRIPTION</th>
-                            <th scope="col">REPORTED BY</th>
-                            <th scope="col">DATE STAMP</th>
-                            <th scope="col">CLASSIFICATION</th>
-                            <th scope="col">PRIORITY</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>REQ-001</td>
-                            <td>Leaking Kitchen Faucet</td>
-                            <td>David Kim</td>
-                            <td>May 24, 2025</td>
-                            <td><span class="badge bg-light-success text-success">Plumbing</span></td>
-                            <td><span class="badge-dot bg-warning me-1"></span>Medium</td>
-                            <td>
-                                <button class="btn btn-sm" title="More options">
-                                    <i class="bi bi-three-dots-vertical"></i>
-                                </button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+    <div class="bg-white p-4 shadow-sm border border-2 rounded border-primary">
+            <div class="row align-items-center mb-4">
+                <div class="col-md-8 d-flex align-items-center">
+                    <div>
+                        <h4 class="fw-semibold">Recent Repair Request</h4>
+                    </div>
+                </div>
             </div>
-        </div>
 
+            <!-- Request Table -->
+            <table class="table table-bordered align-middle">
+                <thead class="table-light">
+                    <!-- Request Table Header -->
+                    <tr>
+                        <th scope="col">REQ NUMBER</th>
+                        <th scope="col">DESCRIPTION</th>
+                        <th scope="col">REPORTED BY</th>
+                        <th scope="col">DATE STAMP</th>
+                        <th scope="col">CLASSIFICATION</th>
+                        <th scope="col">PRIORITY</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Detail Row -->
+                    <tr>
+                        <td>REQ-001</td>
+                        <td>Leaking Kitchen Faucet</td>
+                        <td>David Kim</td>
+                        <td>May 24, 2025</td>
+                        <td><span class="badge bg-light-success text-success">Plumbing</span></td>
+                        <td><span class="badge-dot bg-warning me-1"></span>Medium</td>
+                        <td>
+                            <!-- Action Dropdown -->
+                            <div class="dropdown">
+                                <button class="btn btn-sm btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="actionsDropdown">
+                                    Actions
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="actionsDropdown">
+                                    <li>
+                                        <a class="dropdown-item text-warning" href="#" data-bs-toggle="modal" data-bs-target="#viewModal">Edit</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-success" href="#" data-bs-toggle="modal" data-bs-target="#editModal">Accept</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-danger" href="#" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <!-- Pagination 
         <div class="card-footer d-flex justify-content-between align-items-center">
             <small>Page 1</small>
@@ -74,3 +90,9 @@
         </div>-->
     </div>
 </div>
+@section Scripts {
+    @* Validation and Bootstrap Bundle JS *@
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+}
