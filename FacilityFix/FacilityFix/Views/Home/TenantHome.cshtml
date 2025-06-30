@@ -1,6 +1,8 @@
 @{
-    ViewBag.Title = "TenantHome";
+    ViewBag.Title = "Tenant Home Data";
     ViewBag.ActiveMenu = "TenantHome";
+    string[] RequestTable = new string[] { "Request No.", "Title", "Staff", "Date", "Status", "Actions" };
+    
 }
 @section Styles {
     <link href="~/Content/TenantHome.css" rel="stylesheet" />
@@ -16,6 +18,8 @@
         <div class="col-md-4 mb-3 mb-md-0">
             <div class="card h-100">
                 <div class="card-body">
+
+                    <!-- Active Request -->
                     <div class="d-flex align-items-center justify-content-between">
                         <h5 class="card-title mb-0">ACTIVE REQUEST</h5>
                         <img src="~/images/tenant-dashboard.png" alt="Tenant Dashboard" class="img-fluid rounded ms-2" style="max-height: 40px;">
@@ -27,7 +31,8 @@
                 </div>
             </div>
         </div>
-        
+
+        <!-- Scheduled Repairs -->
         <div class="col-md-4 mb-3 mb-md-0">
             <div class="card h-100">
                 <div class="card-body">
@@ -40,6 +45,7 @@
             </div>
         </div>
 
+        <!-- Last Request -->
         <div class="col-md-4 mb-3 mb-md-0">
             <div class="card h-100">
                 <div class="card-body">
@@ -68,12 +74,12 @@
             <thead class="table-light">
                 <!-- Request Table Header -->
                 <tr>
-                    <th>REQ No.</th>
-                    <th>Title</th>
-                    <th>Staff</th>
-                    <th>Date</th>
-                    <th>Status</th>
-                    <th>Actions</th>
+                    @{
+                        foreach (var header in RequestTable)
+                        {
+                            <th>@header</th>
+                        }
+                    }
                 </tr>
             </thead>
             <tbody>
@@ -84,13 +90,13 @@
                     <td>Juan Dela Cruz</td>
                     <td>2023-10-01</td>
                     <td><span class="badge bg-warning text-dark">In Progress</span></td>
-                    <td>
                     <!-- Action Dropdown -->
-                    <div class="dropdown">
-                        <button class="btn btn-sm btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="actionsDropdown">
+                    <td>
+                        <div class="dropdown">
+                            <button class="btn btn-sm btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="actionsDropdown">
                                 Actions
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="actionsDropdown">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="actionsDropdown">
                                 <li>
                                     <a class="dropdown-item text-warning" href="#" data-bs-toggle="modal" data-bs-target="#viewModal">View</a>
                                 </li>

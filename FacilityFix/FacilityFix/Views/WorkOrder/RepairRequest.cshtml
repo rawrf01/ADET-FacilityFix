@@ -1,6 +1,7 @@
 @{
     ViewBag.Title = "Repair Request";
     ViewBag.ActiveMenu = "RepairRequest";
+    string[] RequestFields = new string[] { "REQ No.", "Title", "Staff", "Date", "Status", "Actions" };
 }
 
 @section Styles {
@@ -34,12 +35,12 @@
             <thead class="table-light">
                 <!-- Request Table Header -->
                 <tr>
-                    <th>REQ No.</th>
-                    <th>Title</th>
-                    <th>Staff</th>
-                    <th>Date</th>
-                    <th>Status</th>
-                    <th>Actions</th>
+                    @{
+                        foreach (var field in RequestFields)
+                        {
+                            <td>@field</td>
+                        }
+                    }
                 </tr>
             </thead>
             <tbody>
@@ -51,12 +52,12 @@
                     <td>2023-10-01</td>
                     <td><span class="badge bg-warning text-dark">In Progress</span></td>
                     <td>
-                    <!-- Action Dropdown -->
-                    <div class="dropdown">
-                        <button class="btn btn-sm btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="actionsDropdown">
+                        <!-- Action Dropdown -->
+                        <div class="dropdown">
+                            <button class="btn btn-sm btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="actionsDropdown">
                                 Actions
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="actionsDropdown">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="actionsDropdown">
                                 <li>
                                     <a class="dropdown-item text-warning" href="#" data-bs-toggle="modal" data-bs-target="#viewModal">View</a>
                                 </li>
