@@ -1,35 +1,27 @@
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using tryMVC.Models;
 
-namespace FacilityFix.Controllers
+namespace tryMVC.Controllers
 {
-    public class HomeController : Controller
+    public class AccountController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<AccountController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public AccountController(ILogger<AccountController> logger)
         {
             _logger = logger;
-        }
-
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
         }
 
         public IActionResult Login()
         {
             return View();
         }
-        public IActionResult AdminLogin()
+
+        public IActionResult Register()
         {
             return View();
         }
-
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

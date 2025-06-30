@@ -1,0 +1,109 @@
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = null;
+    @* string[] CreateAccount = new string[] { "First Name", "Last Name", "Date of Birth", "Unit Number", "Email", "Password" }; *@
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - tryMVC</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/tryMVC.styles.css" asp-append-version="true" />
+</head>
+
+<body class="overflow-hidden">
+
+    <div class="container-fluid">
+        <div class="row min-vh-100">
+            <!-- Left Illustration Panel -->
+            <div class="col-md-6 d-none d-md-flex bg-primary text-white flex-column position-relative">
+
+                <!-- TOP-LEFT LOGO -->
+                <div class="title-logo top-0 start-0 p-3">
+                    <img class="dashboard-logo" src="~/img/logo.png" alt="FacilityFix" style="max-height: 40px;"/>
+                    <span class="logo-text">FacilityFix</span>
+                </div>
+
+                <!-- CENTERED CONTENT -->
+                <div class="text-center px-4 w-100 d-flex flex-column justify-content-center align-items-center flex-grow-1">
+                    <h2 class="mb-4 fw-bold">FacilityFix</h2>
+                    <img src="~/images/register-illustration.png" alt="Activity Dashboard" class="img-fluid" style="max-height: 400px;" />
+                </div>
+            </div>
+
+            <!-- Create an Account-->
+            <div class="col-md-6 d-flex align-items-center justify-content-center bg-light">
+                <div class="w-75">
+                    <h3 class="fw-bold mb-2">Create an Account</h3>
+                    <p class="text-muted">Welcome! Please enter your detail</p>
+
+                    <form asp-action="Register" method="post">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">First Name</label>
+                                <input type="text" name="FirstName" class="form-control" placeholder="First Name" required />
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Last Name</label>
+                                <input type="text" name="LastName" class="form-control" placeholder="Last Name" required />
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Date of Birth</label>
+                            <input type="date" name="DateOfBirth" class="form-control" required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Unit Number</label>
+                            <input type="text" name="UnitNumber" class="form-control" placeholder="Unit Number"
+                                required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" name="Email" class="form-control" placeholder="Email" required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <div class="input-group">
+                                <input type="password" name="Password" class="form-control" placeholder="Password"
+                                    required minlength="8" />
+                                <span class="input-group-text"><i class="bi bi-eye-slash"></i></span>
+                            </div>
+                            <small class="text-muted">Your password must have at least 8 characters</small>
+                        </div>
+
+                        <div class="form-check my-3">
+                            <input class="form-check-input" type="checkbox" id="termsCheck" required />
+                            <label class="form-check-label" for="termsCheck">
+                                By creating an account you agree to the <a href="#">Terms & Conditions</a> and our <a
+                                    href="#">Privacy Policy</a>.
+                            </label>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-block">Create an Account</button>
+                        </div>
+                    </form>
+
+                    <div class="text-center mt-3">
+                        <a asp-controller="Profile" asp-action="TenantProfile">Profile</a>
+                    </div>
+
+                    <div class="text-center mt-3"></div>
+                        <span>Already have an account?</span>
+                        <a asp-controller="Account" asp-action="Login" class="ms-1">Log In</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

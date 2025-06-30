@@ -1,4 +1,4 @@
-﻿@{
+@{
     ViewData["Title"] = "Home Page";
     Layout = null;
 }
@@ -87,8 +87,14 @@
                     </form>
 
                     <div class="text-center mt-3">
-                        <a asp-controller="Profile" asp-action="Profile">Profile</a>
+                        <a asp-controller="Profile" asp-action="TenantProfile">Profile</a>
                     </div>
+
+                    <div class="text-center mt-3"></div>
+                        <span>Already have an account?</span>
+                        <a asp-controller="Account" asp-action="Login" class="ms-1">Log In</a>
+                    </div>
+                    
                 </div>
             </div>
         </div>

@@ -1,0 +1,85 @@
+@{
+    ViewData["Title"] = "Login Page";
+    Layout = null;
+    @* string[] LoginFields = new string[] { "Email", "Password" }; *@
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - tryMVC</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/tryMVC.styles.css" asp-append-version="true" />
+</head>
+
+<body class="overflow-hidden">
+
+    <div class="container-fluid">
+        <div class="row min-vh-100">
+            <!-- Left Illustration Panel -->
+            <div class="col-md-6 d-none d-md-flex bg-primary text-white flex-column position-relative">
+                
+                <!-- TOP-LEFT LOGO -->
+                <div class="title-logo top-0 start-0 p-3">
+                    <img class="dashboard-logo" src="~/img/logo.png" alt="FacilityFix" style="max-height: 40px;"/>
+                    <span class="logo-text">FacilityFix</span>
+                </div>
+
+                <!-- CENTERED CONTENT -->
+                <div class="text-center px-4 w-100 d-flex flex-column justify-content-center align-items-center flex-grow-1">
+                    <h2 class="mb-4 fw-bold">FacilityFix</h2>
+                    <img src="~/images/register-illustration.png" alt="Activity Dashboard" class="img-fluid" style="max-height: 400px;" />
+                </div>
+            </div>
+
+            <!-- Login Fields -->
+            <div class="col-md-6 d-flex align-items-center justify-content-center bg-light">
+                <div class="w-75">
+                    <h3 class="fw-bold mb-2">Login to your Account</h3>
+                    <p class="text-muted">Welcome back! please enter your detail</p>
+
+                    <form asp-action="Login" method="post">
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" name="Email" class="form-control" placeholder="Email" required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <div class="input-group">
+                                <input type="password" name="Password" class="form-control" placeholder="Password" required />
+                                <span class="input-group-text"><i class="bi bi-eye-slash"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center my-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="rememberMe" name="RememberMe" />
+                                <label class="form-check-label" for="rememberMe">
+                                    Remember me?
+                                </label>
+                            </div>
+
+                            <div>
+                                <a asp-action="ForgotPassword" asp-controller="Account" class="text-decoration-none">Forgot password?</a>
+                            </div>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-block">Login In</button>
+                        </div>
+                    </form>
+
+                    <div class="text-center mt-3">
+                        <span>Don't have an account?</span>
+                        <a asp-controller="Account" asp-action="Register" class="ms-1">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
