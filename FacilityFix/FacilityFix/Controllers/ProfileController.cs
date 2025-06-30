@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace YourProjectNamespace.Controllers
+namespace FacilityFix.Controllers
 {
     public class ProfileController : Controller
     {

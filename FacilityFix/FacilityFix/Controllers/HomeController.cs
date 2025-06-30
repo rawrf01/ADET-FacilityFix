@@ -2,7 +2,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using tryMVC.Models;
 
-namespace tryMVC.Controllers
+namespace FacilityFix.Controllers
 {
     public class HomeController : Controller
     {
@@ -22,6 +22,12 @@ namespace tryMVC.Controllers
         {
             return View();
         }
+
+        public IActionResult Login()
+        {
+            return View();
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KK+bAEeReUFD5yrbEwCKmPYl1q+R6JW8Ypj4SPV+1ww=",
+  "Hash": "j2+/humEEPVOeQ4/X/bzVq4nq3nBSzfE00cVn3KATXo=",
   "Source": "FacilityFix",
   "BasePath": "_content/FacilityFix",
   "Mode": "Default",
@@ -59,6 +59,27 @@
       "OriginalItemSpec": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FacilityFix.bundle.scp.css"
     },
     {
+      "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\admin_home.css",
+      "SourceId": "FacilityFix",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\",
+      "BasePath": "_content/FacilityFix",
+      "RelativePath": "css/admin_home#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vof9kn6prr",
+      "Integrity": "r6fhKOZLkH8MuU+mCI+h1bDVfAunqreR56RWjpFUZxM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\admin_home.css"
+    },
+    {
       "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\layout.css",
       "SourceId": "FacilityFix",
       "SourceType": "Discovered",
@@ -78,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\layout.css"
+    },
+    {
+      "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\login.css",
+      "SourceId": "FacilityFix",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\",
+      "BasePath": "_content/FacilityFix",
+      "RelativePath": "css/login#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "afm10ckrrw",
+      "Integrity": "Oij2MaoIih7schheMzKhDxXnVgUOb0NoRPGevSREHnk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
       "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\profile.css",
@@ -101,12 +143,12 @@
       "OriginalItemSpec": "wwwroot\\css\\profile.css"
     },
     {
-      "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\site.css",
+      "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\signup.css",
       "SourceId": "FacilityFix",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\",
       "BasePath": "_content/FacilityFix",
-      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "RelativePath": "css/signup#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -115,11 +157,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kog5tkj88g",
-      "Integrity": "tCCIYyv+96IW1P73npssnfICGOft/YgGKhZJ9hQZLG4=",
+      "Fingerprint": "hobuervn1k",
+      "Integrity": "oWDXr1aS0P5oH0Jy+pBpJc9OnygV0ufDc1jchpsxHpI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\css\\signup.css"
+    },
+    {
+      "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\WorkorderAccept.css",
+      "SourceId": "FacilityFix",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\",
+      "BasePath": "_content/FacilityFix",
+      "RelativePath": "css/WorkorderAccept#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xgz947yjg8",
+      "Integrity": "LwQJJKM5ppbRYRFODIaCdydouDgVrZjnzSV8skEMOlo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\WorkorderAccept.css"
     },
     {
       "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\favicon.ico",
@@ -143,6 +206,153 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\BlueBox.png",
+      "SourceId": "FacilityFix",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\",
+      "BasePath": "_content/FacilityFix",
+      "RelativePath": "img/BlueBox#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ewxcnqhzpe",
+      "Integrity": "YtrwTuEL2LHyoTNOq8ATP+KzBC1DguhumrJZTRMfQiE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\BlueBox.png"
+    },
+    {
+      "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\building.png",
+      "SourceId": "FacilityFix",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\",
+      "BasePath": "_content/FacilityFix",
+      "RelativePath": "img/building#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3xzyozp9w8",
+      "Integrity": "qcECiE3qjmWN+GGfejnpxcbgazu8Mzh4qqkUP/4nlyE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\building.png"
+    },
+    {
+      "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\calendar.png",
+      "SourceId": "FacilityFix",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\",
+      "BasePath": "_content/FacilityFix",
+      "RelativePath": "img/calendar#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tim8rhrbds",
+      "Integrity": "+4wQK5ybVauGxd3UAOBLGojKp4qtLFViCidPQ6yzkYQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\calendar.png"
+    },
+    {
+      "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\eye-off.png",
+      "SourceId": "FacilityFix",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\",
+      "BasePath": "_content/FacilityFix",
+      "RelativePath": "img/eye-off#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2cg5hq2fho",
+      "Integrity": "DuUuDzucC5mK3r8NUtIyQXk0bIrmYx65gwFOyuonDY4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\eye-off.png"
+    },
+    {
+      "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\GreenCalendarC.png",
+      "SourceId": "FacilityFix",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\",
+      "BasePath": "_content/FacilityFix",
+      "RelativePath": "img/GreenCalendarC#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "21is7b7f9k",
+      "Integrity": "Ru1EDxbL34AjEs2Nzo4wWsMzkPE19mGd0wX5RWZONh4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\GreenCalendarC.png"
+    },
+    {
+      "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\leftpartgraphics.png",
+      "SourceId": "FacilityFix",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\",
+      "BasePath": "_content/FacilityFix",
+      "RelativePath": "img/leftpartgraphics#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "227txufy3q",
+      "Integrity": "+jFjy/PALjhJSWkTC+X/v7+rP6XwYlCHys7e7gaG3h4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\leftpartgraphics.png"
+    },
+    {
+      "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\lock.png",
+      "SourceId": "FacilityFix",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\",
+      "BasePath": "_content/FacilityFix",
+      "RelativePath": "img/lock#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "clg45vc9it",
+      "Integrity": "AC4Ivd2JqKtZwcWB31u9+7L2ZtDyjvipAD7efiPzkXY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\lock.png"
+    },
+    {
       "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\logo.png",
       "SourceId": "FacilityFix",
       "SourceType": "Discovered",
@@ -164,12 +374,12 @@
       "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
-      "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\js\\site.js",
+      "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\mail.png",
       "SourceId": "FacilityFix",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\",
       "BasePath": "_content/FacilityFix",
-      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "RelativePath": "img/mail#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -178,11 +388,116 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
+      "Fingerprint": "fczylodyzz",
+      "Integrity": "kTNWqrWcZ1i/P2ghJr+1GnqczV2dO9DbQ937uCB9KFs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot\\img\\mail.png"
+    },
+    {
+      "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\RedRefresh.png",
+      "SourceId": "FacilityFix",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\",
+      "BasePath": "_content/FacilityFix",
+      "RelativePath": "img/RedRefresh#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dfupmm014p",
+      "Integrity": "t2sZCkjf9mT81gbsIXHtaKY5+0wrcOZ4r+Xvw3HYa0s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\RedRefresh.png"
+    },
+    {
+      "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\user.png",
+      "SourceId": "FacilityFix",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\",
+      "BasePath": "_content/FacilityFix",
+      "RelativePath": "img/user#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7swsunoxdt",
+      "Integrity": "CRF1qRAXK5/sTupsIU/mNKAmwVrPy+gmjBuZBhVWYbU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\user.png"
+    },
+    {
+      "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\YellowSpeaker.png",
+      "SourceId": "FacilityFix",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\",
+      "BasePath": "_content/FacilityFix",
+      "RelativePath": "img/YellowSpeaker#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xur86kpv8z",
+      "Integrity": "99pUnY8F8gLc+5tzGZu2Dj9zsEJ0gBt7HR+EnGk3y5c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\YellowSpeaker.png"
+    },
+    {
+      "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\js\\login.js",
+      "SourceId": "FacilityFix",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\",
+      "BasePath": "_content/FacilityFix",
+      "RelativePath": "js/login#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "txjhlvyw4s",
+      "Integrity": "MbDsWlKGJjcP6qsjWY6eqCO2BUPoaEcEEwY+6Xz0Va8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login.js"
+    },
+    {
+      "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\js\\signup.js",
+      "SourceId": "FacilityFix",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\",
+      "BasePath": "_content/FacilityFix",
+      "RelativePath": "js/signup#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jg2z4o86nt",
+      "Integrity": "M9vH8Ie4nh8jKbEV2v4QMvI/dHIbA8sePuIyw22UvmE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\signup.js"
     },
     {
       "Identity": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -1384,6 +1699,88 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/admin_home.css",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\admin_home.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "895"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r6fhKOZLkH8MuU+mCI+h1bDVfAunqreR56RWjpFUZxM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Jun 2025 07:12:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r6fhKOZLkH8MuU+mCI+h1bDVfAunqreR56RWjpFUZxM="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin_home.vof9kn6prr.css",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\admin_home.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "895"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r6fhKOZLkH8MuU+mCI+h1bDVfAunqreR56RWjpFUZxM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Jun 2025 07:12:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vof9kn6prr"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin_home.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r6fhKOZLkH8MuU+mCI+h1bDVfAunqreR56RWjpFUZxM="
+        }
+      ]
+    },
+    {
       "Route": "css/layout.3ds5p2dnez.css",
       "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\layout.css",
       "Selectors": [],
@@ -1466,6 +1863,88 @@
       ]
     },
     {
+      "Route": "css/login.afm10ckrrw.css",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Oij2MaoIih7schheMzKhDxXnVgUOb0NoRPGevSREHnk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 15:47:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "afm10ckrrw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Oij2MaoIih7schheMzKhDxXnVgUOb0NoRPGevSREHnk="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.css",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Oij2MaoIih7schheMzKhDxXnVgUOb0NoRPGevSREHnk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 15:47:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Oij2MaoIih7schheMzKhDxXnVgUOb0NoRPGevSREHnk="
+        }
+      ]
+    },
+    {
       "Route": "css/profile.css",
       "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\profile.css",
       "Selectors": [],
@@ -1488,7 +1967,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 14:25:05 GMT"
+          "Value": "Sun, 29 Jun 2025 09:08:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1525,7 +2004,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 14:25:05 GMT"
+          "Value": "Sun, 29 Jun 2025 09:08:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1548,8 +2027,8 @@
       ]
     },
     {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\site.css",
+      "Route": "css/signup.css",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\signup.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1558,7 +2037,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "701"
+          "Value": "1049"
         },
         {
           "Name": "Content-Type",
@@ -1566,11 +2045,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tCCIYyv+96IW1P73npssnfICGOft/YgGKhZJ9hQZLG4=\""
+          "Value": "\"oWDXr1aS0P5oH0Jy+pBpJc9OnygV0ufDc1jchpsxHpI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 12:44:04 GMT"
+          "Value": "Sun, 29 Jun 2025 07:39:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1580,13 +2059,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tCCIYyv+96IW1P73npssnfICGOft/YgGKhZJ9hQZLG4="
+          "Value": "sha256-oWDXr1aS0P5oH0Jy+pBpJc9OnygV0ufDc1jchpsxHpI="
         }
       ]
     },
     {
-      "Route": "css/site.kog5tkj88g.css",
-      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\site.css",
+      "Route": "css/signup.hobuervn1k.css",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\signup.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1595,7 +2074,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "701"
+          "Value": "1049"
         },
         {
           "Name": "Content-Type",
@@ -1603,11 +2082,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tCCIYyv+96IW1P73npssnfICGOft/YgGKhZJ9hQZLG4=\""
+          "Value": "\"oWDXr1aS0P5oH0Jy+pBpJc9OnygV0ufDc1jchpsxHpI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 12:44:04 GMT"
+          "Value": "Sun, 29 Jun 2025 07:39:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1617,15 +2096,97 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kog5tkj88g"
+          "Value": "hobuervn1k"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "css/signup.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-tCCIYyv+96IW1P73npssnfICGOft/YgGKhZJ9hQZLG4="
+          "Value": "sha256-oWDXr1aS0P5oH0Jy+pBpJc9OnygV0ufDc1jchpsxHpI="
+        }
+      ]
+    },
+    {
+      "Route": "css/WorkorderAccept.css",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\WorkorderAccept.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "246"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LwQJJKM5ppbRYRFODIaCdydouDgVrZjnzSV8skEMOlo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Jun 2025 05:39:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LwQJJKM5ppbRYRFODIaCdydouDgVrZjnzSV8skEMOlo="
+        }
+      ]
+    },
+    {
+      "Route": "css/WorkorderAccept.xgz947yjg8.css",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\WorkorderAccept.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "246"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LwQJJKM5ppbRYRFODIaCdydouDgVrZjnzSV8skEMOlo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Jun 2025 05:39:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xgz947yjg8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/WorkorderAccept.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LwQJJKM5ppbRYRFODIaCdydouDgVrZjnzSV8skEMOlo="
         }
       ]
     },
@@ -1652,7 +2213,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 16:11:04 GMT"
+          "Value": "Mon, 30 Jun 2025 06:00:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1697,7 +2258,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 16:11:04 GMT"
+          "Value": "Mon, 30 Jun 2025 06:00:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1742,7 +2303,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 16:11:04 GMT"
+          "Value": "Mon, 30 Jun 2025 06:00:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1779,7 +2340,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 16:11:04 GMT"
+          "Value": "Mon, 30 Jun 2025 06:00:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1876,6 +2437,580 @@
       ]
     },
     {
+      "Route": "img/BlueBox.ewxcnqhzpe.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\BlueBox.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1704"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YtrwTuEL2LHyoTNOq8ATP+KzBC1DguhumrJZTRMfQiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Jun 2025 07:33:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ewxcnqhzpe"
+        },
+        {
+          "Name": "label",
+          "Value": "img/BlueBox.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YtrwTuEL2LHyoTNOq8ATP+KzBC1DguhumrJZTRMfQiE="
+        }
+      ]
+    },
+    {
+      "Route": "img/BlueBox.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\BlueBox.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1704"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YtrwTuEL2LHyoTNOq8ATP+KzBC1DguhumrJZTRMfQiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Jun 2025 07:33:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YtrwTuEL2LHyoTNOq8ATP+KzBC1DguhumrJZTRMfQiE="
+        }
+      ]
+    },
+    {
+      "Route": "img/building.3xzyozp9w8.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\building.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "460"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qcECiE3qjmWN+GGfejnpxcbgazu8Mzh4qqkUP/4nlyE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 07:40:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3xzyozp9w8"
+        },
+        {
+          "Name": "label",
+          "Value": "img/building.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qcECiE3qjmWN+GGfejnpxcbgazu8Mzh4qqkUP/4nlyE="
+        }
+      ]
+    },
+    {
+      "Route": "img/building.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\building.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "460"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qcECiE3qjmWN+GGfejnpxcbgazu8Mzh4qqkUP/4nlyE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 07:40:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qcECiE3qjmWN+GGfejnpxcbgazu8Mzh4qqkUP/4nlyE="
+        }
+      ]
+    },
+    {
+      "Route": "img/calendar.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\calendar.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "649"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+4wQK5ybVauGxd3UAOBLGojKp4qtLFViCidPQ6yzkYQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 07:42:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+4wQK5ybVauGxd3UAOBLGojKp4qtLFViCidPQ6yzkYQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/calendar.tim8rhrbds.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\calendar.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "649"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+4wQK5ybVauGxd3UAOBLGojKp4qtLFViCidPQ6yzkYQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 07:42:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tim8rhrbds"
+        },
+        {
+          "Name": "label",
+          "Value": "img/calendar.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+4wQK5ybVauGxd3UAOBLGojKp4qtLFViCidPQ6yzkYQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/eye-off.2cg5hq2fho.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\eye-off.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DuUuDzucC5mK3r8NUtIyQXk0bIrmYx65gwFOyuonDY4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 15:54:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2cg5hq2fho"
+        },
+        {
+          "Name": "label",
+          "Value": "img/eye-off.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DuUuDzucC5mK3r8NUtIyQXk0bIrmYx65gwFOyuonDY4="
+        }
+      ]
+    },
+    {
+      "Route": "img/eye-off.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\eye-off.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DuUuDzucC5mK3r8NUtIyQXk0bIrmYx65gwFOyuonDY4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 15:54:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DuUuDzucC5mK3r8NUtIyQXk0bIrmYx65gwFOyuonDY4="
+        }
+      ]
+    },
+    {
+      "Route": "img/GreenCalendarC.21is7b7f9k.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\GreenCalendarC.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1336"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ru1EDxbL34AjEs2Nzo4wWsMzkPE19mGd0wX5RWZONh4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Jun 2025 07:34:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "21is7b7f9k"
+        },
+        {
+          "Name": "label",
+          "Value": "img/GreenCalendarC.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ru1EDxbL34AjEs2Nzo4wWsMzkPE19mGd0wX5RWZONh4="
+        }
+      ]
+    },
+    {
+      "Route": "img/GreenCalendarC.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\GreenCalendarC.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1336"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ru1EDxbL34AjEs2Nzo4wWsMzkPE19mGd0wX5RWZONh4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Jun 2025 07:34:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ru1EDxbL34AjEs2Nzo4wWsMzkPE19mGd0wX5RWZONh4="
+        }
+      ]
+    },
+    {
+      "Route": "img/leftpartgraphics.227txufy3q.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\leftpartgraphics.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146584"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+jFjy/PALjhJSWkTC+X/v7+rP6XwYlCHys7e7gaG3h4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Jun 2025 12:51:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "227txufy3q"
+        },
+        {
+          "Name": "label",
+          "Value": "img/leftpartgraphics.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+jFjy/PALjhJSWkTC+X/v7+rP6XwYlCHys7e7gaG3h4="
+        }
+      ]
+    },
+    {
+      "Route": "img/leftpartgraphics.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\leftpartgraphics.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146584"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+jFjy/PALjhJSWkTC+X/v7+rP6XwYlCHys7e7gaG3h4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Jun 2025 12:51:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+jFjy/PALjhJSWkTC+X/v7+rP6XwYlCHys7e7gaG3h4="
+        }
+      ]
+    },
+    {
+      "Route": "img/lock.clg45vc9it.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\lock.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AC4Ivd2JqKtZwcWB31u9+7L2ZtDyjvipAD7efiPzkXY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 15:06:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "clg45vc9it"
+        },
+        {
+          "Name": "label",
+          "Value": "img/lock.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AC4Ivd2JqKtZwcWB31u9+7L2ZtDyjvipAD7efiPzkXY="
+        }
+      ]
+    },
+    {
+      "Route": "img/lock.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\lock.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AC4Ivd2JqKtZwcWB31u9+7L2ZtDyjvipAD7efiPzkXY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 15:06:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AC4Ivd2JqKtZwcWB31u9+7L2ZtDyjvipAD7efiPzkXY="
+        }
+      ]
+    },
+    {
       "Route": "img/logo.cqxbgzq31k.png",
       "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\logo.png",
       "Selectors": [],
@@ -1958,8 +3093,8 @@
       ]
     },
     {
-      "Route": "js/site.js",
-      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\js\\site.js",
+      "Route": "img/mail.fczylodyzz.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\mail.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1968,56 +3103,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "471"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/javascript"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"kTNWqrWcZ1i/P2ghJr+1GnqczV2dO9DbQ937uCB9KFs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 14:25:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "231"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 14:25:05 GMT"
+          "Value": "Wed, 25 Jun 2025 15:06:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2027,15 +3125,462 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
+          "Value": "fczylodyzz"
         },
         {
           "Name": "label",
-          "Value": "js/site.js"
+          "Value": "img/mail.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-kTNWqrWcZ1i/P2ghJr+1GnqczV2dO9DbQ937uCB9KFs="
+        }
+      ]
+    },
+    {
+      "Route": "img/mail.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\mail.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "471"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kTNWqrWcZ1i/P2ghJr+1GnqczV2dO9DbQ937uCB9KFs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 15:06:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kTNWqrWcZ1i/P2ghJr+1GnqczV2dO9DbQ937uCB9KFs="
+        }
+      ]
+    },
+    {
+      "Route": "img/RedRefresh.dfupmm014p.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\RedRefresh.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1510"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t2sZCkjf9mT81gbsIXHtaKY5+0wrcOZ4r+Xvw3HYa0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Jun 2025 07:35:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dfupmm014p"
+        },
+        {
+          "Name": "label",
+          "Value": "img/RedRefresh.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t2sZCkjf9mT81gbsIXHtaKY5+0wrcOZ4r+Xvw3HYa0s="
+        }
+      ]
+    },
+    {
+      "Route": "img/RedRefresh.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\RedRefresh.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1510"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t2sZCkjf9mT81gbsIXHtaKY5+0wrcOZ4r+Xvw3HYa0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Jun 2025 07:35:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t2sZCkjf9mT81gbsIXHtaKY5+0wrcOZ4r+Xvw3HYa0s="
+        }
+      ]
+    },
+    {
+      "Route": "img/user.7swsunoxdt.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\user.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "505"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CRF1qRAXK5/sTupsIU/mNKAmwVrPy+gmjBuZBhVWYbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 07:41:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7swsunoxdt"
+        },
+        {
+          "Name": "label",
+          "Value": "img/user.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CRF1qRAXK5/sTupsIU/mNKAmwVrPy+gmjBuZBhVWYbU="
+        }
+      ]
+    },
+    {
+      "Route": "img/user.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\user.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "505"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CRF1qRAXK5/sTupsIU/mNKAmwVrPy+gmjBuZBhVWYbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 07:41:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CRF1qRAXK5/sTupsIU/mNKAmwVrPy+gmjBuZBhVWYbU="
+        }
+      ]
+    },
+    {
+      "Route": "img/YellowSpeaker.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\YellowSpeaker.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"99pUnY8F8gLc+5tzGZu2Dj9zsEJ0gBt7HR+EnGk3y5c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Jun 2025 07:35:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-99pUnY8F8gLc+5tzGZu2Dj9zsEJ0gBt7HR+EnGk3y5c="
+        }
+      ]
+    },
+    {
+      "Route": "img/YellowSpeaker.xur86kpv8z.png",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\YellowSpeaker.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"99pUnY8F8gLc+5tzGZu2Dj9zsEJ0gBt7HR+EnGk3y5c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Jun 2025 07:35:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xur86kpv8z"
+        },
+        {
+          "Name": "label",
+          "Value": "img/YellowSpeaker.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-99pUnY8F8gLc+5tzGZu2Dj9zsEJ0gBt7HR+EnGk3y5c="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.js",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\js\\login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MbDsWlKGJjcP6qsjWY6eqCO2BUPoaEcEEwY+6Xz0Va8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 15:47:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MbDsWlKGJjcP6qsjWY6eqCO2BUPoaEcEEwY+6Xz0Va8="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.txjhlvyw4s.js",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\js\\login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MbDsWlKGJjcP6qsjWY6eqCO2BUPoaEcEEwY+6Xz0Va8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 15:47:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "txjhlvyw4s"
+        },
+        {
+          "Name": "label",
+          "Value": "js/login.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MbDsWlKGJjcP6qsjWY6eqCO2BUPoaEcEEwY+6Xz0Va8="
+        }
+      ]
+    },
+    {
+      "Route": "js/signup.jg2z4o86nt.js",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\js\\signup.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "234"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M9vH8Ie4nh8jKbEV2v4QMvI/dHIbA8sePuIyw22UvmE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 07:38:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jg2z4o86nt"
+        },
+        {
+          "Name": "label",
+          "Value": "js/signup.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M9vH8Ie4nh8jKbEV2v4QMvI/dHIbA8sePuIyw22UvmE="
+        }
+      ]
+    },
+    {
+      "Route": "js/signup.js",
+      "AssetFile": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\js\\signup.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "234"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M9vH8Ie4nh8jKbEV2v4QMvI/dHIbA8sePuIyw22UvmE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 07:38:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M9vH8Ie4nh8jKbEV2v4QMvI/dHIbA8sePuIyw22UvmE="
         }
       ]
     },
