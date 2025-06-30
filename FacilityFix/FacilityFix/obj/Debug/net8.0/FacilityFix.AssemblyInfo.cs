@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FacilityFix")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f46aad171d317a1c8cd1919812996a24d867546f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce281a8d0ce1662731ade89e85ee17edc09f7090")]
 [assembly: System.Reflection.AssemblyProductAttribute("FacilityFix")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FacilityFix")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

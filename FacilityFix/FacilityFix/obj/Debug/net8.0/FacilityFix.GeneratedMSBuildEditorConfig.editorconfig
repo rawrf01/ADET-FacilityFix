@@ -20,28 +20,12 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/Account/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/Account/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/Account/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/Dashboard/Admin_Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEFkbWluX0hvbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/Dashboard/TenantHome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXFRlbmFudEhvbWUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/Home/AdminHome.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbkhvbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/Home/AdminLogin.cshtml]
@@ -58,10 +42,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/Home/TenantHome.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZW5hbnRIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/ADET-FacilityFix/ADET-FacilityFix/FacilityFix/FacilityFix/Views/Profile/AdminProfile.cshtml]

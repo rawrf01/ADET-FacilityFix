@@ -12,9 +12,5 @@ namespace FacilityFix.Controllers
         {
             return View();
         }
-        public IActionResult TenantProfile()
-        {
-            return View();
-        }
     }
 }
