@@ -4,12 +4,12 @@ namespace YourProjectNamespace.Controllers
 {
     public class WorkOrderController : Controller
     {
-        public IActionResult RepairRequest()
+        public IActionResult RepairRequest() //Tenant
         {
             return View();
         }
 
-        public IActionResult RepairRequestDetails()
+        public IActionResult RepairRequestDetails() //Admin
         {
             return View();
         }

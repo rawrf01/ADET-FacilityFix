@@ -32,13 +32,6 @@
                     </svg>
                     Work Orders
                 </a>
-                <a class="sidebar-link @(ViewBag.ActiveMenu == "Calendar" ? "active" : "")"
-                    href="@Url.Action("Calendar", "Calendar")">
-                    <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01" />
-                    </svg>
-                    Calendar
-                </a>
                 <a class="sidebar-link @(ViewBag.ActiveMenu == "Profile" ? "active" : "")"
                     href="@Url.Action("TenantProfile", "Profile")">
                     <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -58,15 +51,20 @@
                 </svg>
                 Settings
             </a>
-            <a class="footer-link" href="@Url.Action("Logout", "Account")">
+
+            <!-- Logout -->
+            <a class="footer-link" href="@Url.Action("Login", "Account")">
                 <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path d="M17 16l4-4m0 0l-4-4m4 4H7" />
                     <path d="M3 21V3" />
                 </svg>
                 Logout
             </a>
+
         </div>
     </aside>
+
+    <!-- Header -->
     <main class="main-content">
         <div class="topbar">
             <div class="search-container">
@@ -86,7 +84,11 @@
                     <path
                         d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11c0-3.07-1.64-5.64-5-6.32V4a2 2 0 10-4 0v.68C6.64 5.36 5 7.929 5 11v3.159c0 .538-.214 1.055-.595 1.436L3 17h5m4 0v1a3 3 0 11-6 0v-1m6 0H9" />
                 </svg>
-                <img class="topbar-avatar" src="https://randomuser.me/api/portraits/men/32.jpg" alt="User" />
+
+                <!-- User Profile -->
+                <a href="@Url.Action("TenantProfile", "Profile")">
+                    <img class="topbar-avatar" src="https://randomuser.me/api/portraits/men/32.jpg" alt="User" />
+                </a>
             </div>
         </div>
         <div style="padding:32px;">
