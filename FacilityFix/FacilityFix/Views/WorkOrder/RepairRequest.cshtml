@@ -1,0 +1,574 @@
+@{
+    ViewBag.Title = "Repair Request";
+    ViewBag.ActiveMenu = "RepairRequest";
+    string[] RequestFields = new string[] { "REQ No.", "Title", "Staff", "Date", "Status", "Actions" };
+}
+
+@section Styles {
+    <link href="~/Content/TenantProfile.css" rel="stylesheet" />
+}
+
+<!-- Container for content -->
+<div class="container my-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-semibold">Repair Request</h2>
+
+        <!-- Modal Trigger Button -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#repairRequestModal">
+            Create Repair Request
+        </button>
+    </div>
+
+    <!-- Request Details Section -->
+    <div class="bg-white p-4 shadow-sm border border-2 rounded border-secondary p-3">
+        <div class="row align-items-center mb-4">
+            <div class="col-md-8 d-flex align-items-center">
+                <div>
+                    <h4 class="fw-semibold">Request Details</h4>
+                    <p class="text-muted">Please provide the details of the repair request.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Request Table -->
+        <table class="table table-bordered align-middle">
+            <thead class="table-light">
+                <!-- Request Table Header -->
+                <tr>
+                    @{
+                        foreach (var field in RequestFields)
+                        {
+                            <td>@field</td>
+                        }
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Detail Row -->
+                <tr>
+                    <td>RQ-001</td>
+                    <td>Leaking Faucet</td>
+                    <td>Juan Dela Cruz</td>
+                    <td>2023-10-01</td>
+                    <td><span class="badge bg-warning text-dark">In Progress</span></td>
+                    <td>
+                        <!-- Action Dropdown -->
+                        <div class="dropdown">
+                            <button class="btn btn-sm btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="actionsDropdown">
+                                Actions
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="actionsDropdown">
+                                <li>
+                                    <a class="dropdown-item text-warning" href="#" data-bs-toggle="modal" data-bs-target="#viewModal">View</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-success" href="#" data-bs-toggle="modal" data-bs-target="#editModal">Edit</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-danger" href="#" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- View Modal -->
+            <div class="modal fade" id="viewModal" tabindex="-1" aria-labelledby="viewModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="viewModalLabel">View Request</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p><strong>REQ No.:</strong> REQ-001</p>
+                            <p><strong>Title:</strong> Leaking Faucet</p>
+                            <p><strong>Staff:</strong> Juan Dela Cruz</p>
+                            <p><strong>Date:</strong> 2023-10-01</p>
+                            <p><strong>Status:</strong> <span class="badge bg-warning text-dark">In Progress</span></p>
+                            <p><strong>Description:</strong> The faucet in the kitchen is leaking continuously.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Edit Modal -->
+            <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="editModalLabel">Edit Request</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="editTitle" class="form-label">Title</label>
+                                    <input type="text" class="form-control" id="editTitle" value="Leaking Faucet">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="editStaff" class="form-label">Staff</label>
+                                    <input type="text" class="form-control" id="editStaff" value="Juan Dela Cruz">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="editDate" class="form-label">Date</label>
+                                    <input type="date" class="form-control" id="editDate" value="2023-10-01">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="editStatus" class="form-label">Status</label>
+                                    <select class="form-select" id="editStatus">
+                                        <option selected>Pending</option>
+                                        <option>In Progress</option>
+                                        <option>Completed</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="editDescription" class="form-label">Description</label>
+                                    <textarea class="form-control" id="editDescription" rows="3">The faucet in the kitchen is leaking continuously.</textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-success">Save Changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Delete Modal -->
+            <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="deleteModalLabel">Delete Request</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Are you sure you want to delete <strong>REQ-001: Leaking Faucet</strong>?</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-danger">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Create Request Modal -->
+    <div class="modal fade" id="repairRequestModal" aria-hidden="true" aria-labelledby="repairRequestModalLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="repairRequestModalLabel">Create Repair Request</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p>Do you want to create a repair request?</p>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                    <button type="button" class="btn btn-primary" data-bs-target="#newRequestModal" data-bs-toggle="modal">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @* <!-- Request Type Modal -->
+    <div class="modal fade" id="requestTypeModal" tabindex="-1" aria-labelledby="requestTypeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="requestTypeModalLabel">Choose Request Type</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body text-center">
+                    <p class="mb-3">Select the type of request you'd like to make:</p>
+
+                    <div class="d-grid gap-3">
+                        <button type="button" class="btn btn-outline-success" data-bs-target="#concernSlipModal" data-bs-toggle="modal">
+                            Concern Slip
+                        </button>
+
+                        <button type="button" class="btn btn-outline-primary" data-bs-target="#jobServiceRemindersModal" data-bs-toggle="modal">
+                            Job Service
+                        </button>
+
+                        <button type="button" class="btn btn-outline-warning" data-bs-target="#workOrderReminderModal" data-bs-toggle="modal">
+                            Work Order Permit
+                        </button>
+                    </div>
+                </div>
+
+                <div class="modal-footer justify-content-right">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                </div>
+
+            </div>
+        </div>
+    </div> *@
+
+    <!-- Request Form   -->
+    <div class="modal fade" id="newRequestModal" tabindex="-1" aria-labelledby="newRequestModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="newRequestModalLabel">New Request Form</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+
+                    <form asp-action="SubmitNewRequest" method="post">
+                        <div class="mb-3">
+                            <label for="concernTitle" class="form-label">Request Title</label>
+                            <input type="text" name="ConcernTitle" class="form-control" id="concernTitle" placeholder="Enter Request Title" required>
+                        </div>
+
+                        <div class="row">
+                        <div class="mb-3 col-md-6">
+                            <label for="dateRequested" class="form-label">Date Requested</label>
+                            <input type="date" name="PreferredSchedule" class="form-control" id="preferredSchedule" required />
+                        </div>
+
+                        <div class="mb-3 col-md-6">
+                            <label for="controlNumber" class="form-label">Request Control Number</label>
+                            <input type="text" name="ControlNumber" class="form-control" id="controlNumber" placeholder="Enter Request Control Number" required>
+                        </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="mb-3 col-md-6">
+                                <label for="unitOwnerTenant" class="form-label">Unit Owner/Tenant</label>
+                                <input type="text" name="UnitOwnerTenant" class="form-control" id="unitOwnerTenant" placeholder="Enter Full Name" required>
+                            </div>
+
+                        <div class="mb-3 col-md-6">
+                            <label for="unitNumber" class="form-label">Unit Number</label>
+                            <input type="text" name="UnitNumber" class="form-control" id="unitNumber" placeholder="Enter Unit Number" required>
+                        </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="concernDescription" class="form-label">Concern/s</label>
+                            <textarea class="form-control" id="concernDescription" name="ConcernDescription" rows="3" required placeholder="Please provide detailed information about your request/s..."></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="formFileMultiple" class="form-label">Attachments</label>
+                            <input class="form-control" id="formFileMultiple" name="Attachments" type="file" multiple>
+                        </div>
+                    </form>
+
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @* <!-- Job Service scrollable modal -->
+    <div class="modal fade" id="jobServiceRemindersModal" tabindex="-1" aria-labelledby="jobServiceRemindersModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="jobServiceRemindersModalLabel">Job Service Reminders</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+
+                    <p>Notes</p>
+                    <ul>
+                        <li>Jobs beyond the capabilities of the service personnel shall not be accepted. The Property Management Office nor the Condominium Corporation shall not in no way be responsible or liable for any services, 
+                            nor guarantee or warrant the quality of such service. It is understood that the availment of the owner or tenant of the services performed by any employee of the 
+                            Condominium Corporation on behalf of and at the request of the owner or tenant shall be solely at his own risk.
+                        </li>
+                    </ul>
+
+                    <p>Instruction</p>
+                    <ul>
+                        <li>Unit Owner/Tenant must secure a Job Service Request form from the Property Management Office for any services/repairs inside the unit.</li>
+                        <li>Unit Owner/Tenant must list down all concerns prior to any services and seek advice from the Property Management Office the Building services and its corresponding rate/cost.</li>
+                        <li>Unit Owner/Tenant shall pay the amount to the Cashier and present the Official Receipt to the Building Engineer and/or Technician on Duty.</li>
+                        <li>The Building Engineer accepts the Job Service Request form, validates the requested scope of work, schedule the inspection and repair works.</li>
+                        <li>The Building Engineer will advice the assigned technician for the requested service/repair and give further instruction.</li>
+                        <li>The Technician on Duty should inform the Building Engineer status of service/repair works and it should be Acknowledge by the unit owner/tenant upon completion.</li>
+                </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary" data-bs-target="#jobServiceRequestModal" data-bs-toggle="modal">Next</button>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Job Service Request  -->
+    <div class="modal fade" id="jobServiceRequestModal" tabindex="-1" aria-labelledby="jobServiceRequestLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="jobServiceRequestLabel">Job Service Request Form</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+
+                    <form asp-action="JobServiceForm" method="post">
+                        <div class="mb-3">
+                            <label for="concernTitle" class="form-label">Concern Title</label>
+                            <input type="text" name="ConcernTitle" class="form-control" id="concernTitle" placeholder="Enter Concern Title" required>
+                        </div>
+
+                        <div class="row">
+                        <div class="mb-3 col-md-6">
+                            <label for="dateRequested" class="form-label">Date Requested</label>
+                            <input type="date" name="DateRequested" class="form-control" id="dateRequested" required />
+                        </div>
+
+                        <div class="mb-3 col-md-6">
+                            <label for="controlNumber" class="form-label">Control Number</label>
+                            <input type="text" name="ControlNumber" class="form-control" id="controlNumber" placeholder="Enter Control Number" required>
+                        </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="mb-3 col-md-6">
+                                <label for="unitOwnerTenant" class="form-label">Unit Owner/Tenant</label>
+                                <input type="text" name="UnitOwnerTenant" class="form-control" id="unitOwnerTenant" placeholder="Enter Full Name" required>
+                            </div>
+
+                        <div class="mb-3 col-md-6">
+                            <label for="unitNumber" class="form-label">Unit Number</label>
+                            <input type="text" name="UnitNumber" class="form-control" id="unitNumber" placeholder="Enter Unit Number" required>
+                        </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="concernDescription" class="form-label">Concern/s</label>
+                            <textarea class="form-control" id="concernDescription" name="ConcernDescription" rows="3" required placeholder="Please provide detailed information about your request/s..."></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="specificInstructions" class="form-label">Specific Instruction/s</label>
+                            <textarea class="form-control" id="specificInstructions" name="SpecificInstructions" rows="3" required placeholder="Please provide a specific instruction/s..."></textarea>
+                        </div>
+
+                        <div class="row"></div>
+                        <div class="mb-3 col-md-6">
+                            <label for="dateRequested" class="form-label">Preferred Schedule</label>
+                            <input type="date" name="DateRequested" class="form-control" id="dateRequested" required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="formFileMultiple" class="form-label">Attachments</label>
+                            <input class="form-control" id="formFileMultiple" type="file" multiple>
+                        </div>
+                    </form>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Work Order Permit scrollable modal -->
+    <div class="modal fade" id="workOrderReminderModal" tabindex="-1" aria-labelledby="workOrderReminderModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="workOrderReminderModalLabel">Work Order Reminders</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+
+                    <p>NONE LIABILITY OF THE MANAGEMENT</p>
+                    <ul>
+                        <li>The Management, its officers, staff, employees and affiliates, shall not be liable for any damages, loss, death or injury caused by/or arising from the acts or/or negligence of the unit owner, 
+                            tenant, contractor and other persons in respect to the construction, renovation, repairs of facilities while in, or upon the premises where the activities are being conducted whether 
+                            in the interior or exterior part of the building. Unit owner, its tenant if any, and contractor, its officers and employees, shall be jointly and severely liable for any damages, loss, death or 
+                            injury caused by/or arising from the acts/or their negligence.
+                        </li>
+                    </ul>
+
+                    <p>TERMS AND CONDITIONS</p>
+                    <ul>
+                        <li>This permit is valid only on the dates and time specified above.</li>
+                        <li>This permit must be submitted to the Engineering Office for approval at least three (3) days BEFORE actualwork schedule signed by the Unit Owner/ Authorized Representative.</li>
+                        <li>Approval of Work Permit is during office hours and days only.</li>
+                        <li>Work permit must be presented to the Guard-on-Duty for access on any area.</li>
+                        <li>A copy of this work permit must be posted on their main door during the whole duration of work to inform the neighboring unit & the roving guard that there is a construction on going inside the unit.</li>
+                        <li>Working days are from Monday to Friday, from 8:00AM to 5:00PM. Noisy works starts from 10:00AM to 5:00PM.</li>
+                        <li>Cutting of tiles inside the unit shall not be allowed. There is a designated area for this activity. Contractors violating this will be charged P2,000.00 per offense, to be deduct on Construction Bond plus immediate work stoppage.</li>
+                        <li>Contractors must give their Valid II to the basement Guard in exchange with the Condo Corp. Contractor II).</li>
+                        <li>Contractors must wear t-shirt. Workers wearing sleeveless shirts, shorts, sandals, or slippers and the like shall not be allowed to enter the premises.</li>
+                        <li>Workers loitering in the common areas is prohibited.</li>
+                        <li>All debris are must be place in the designated area only. Minimum P500.00 up to P2,000.00 violation fee for workers caught placing on the hallways and/or other common areas.</li>
+                        <li>All contractors and service providers are REQUIRED to follow and comply with the governing House Rules and Regulations to avoid property and personal risks well as inconvenience as a consequence of violation/s of the provisions of the House Rules.</li>
+
+                </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary" data-bs-target="#workOrderPermitModal" data-bs-toggle="modal">Next</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Work Order Permit  -->
+    <div class="modal fade" id="workOrderPermitModal" tabindex="-1" aria-labelledby="workOrderPermitLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="workOrderPermitLabel">Work Order Permit Form</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+
+                    <form asp-action="WorkPermitForm" method="post">
+                        <div class="mb-3">
+                            <label for="concernTitle" class="form-label">Concern Title</label>
+                            <input type="text" name="ConcernTitle" class="form-control" id="concernTitle" placeholder="Enter Concern Title" required>
+                        </div>
+
+                        <div class="row">
+                        <div class="mb-3 col-md-6">
+                            <label for="dateRequested" class="form-label">Date Requested</label>
+                            <input type="date" name="DateRequested" class="form-control" id="dateRequested" required />
+                        </div>
+
+                        <div class="mb-3 col-md-6">
+                            <label for="controlNumber" class="form-label">Control Number</label>
+                            <input type="text" name="ControlNumber" class="form-control" id="controlNumber" placeholder="Enter Control Number" required>
+                        </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="mb-3 col-md-6">
+                                <label for="unitOwnerTenant" class="form-label">Unit Owner/Tenant</label>
+                                <input type="text" name="UnitOwnerTenant" class="form-control" id="unitOwnerTenant" placeholder="Enter Full Name" required>
+                            </div>
+
+                        <div class="mb-3 col-md-6">
+                            <label for="unitNumber" class="form-label">Unit Number</label>
+                            <input type="text" name="UnitNumber" class="form-control" id="unitNumber" placeholder="Enter Unit Number" required>
+                        </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="concernDescription" class="form-label">Concern/s</label>
+                            <textarea class="form-control" id="concernDescription" name="ConcernDescription" rows="3" required placeholder="Please provide detailed information about your request/s..."></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="formFileMultiple" class="form-label">Attachments</label>
+                            <input class="form-control" id="formFileMultiple" type="file" multiple>
+                        </div>
+                    </form>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary" data-bs-target="#workOrderPermitValidationModal" data-bs-toggle="modal">Next</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Work Order Permit Validation  -->
+    <div class="modal fade" id="workOrderPermitValidationModal" tabindex="-1" aria-labelledby="workOrderPermitValidationLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="workOrderPermitValidationLabel">Permit Validation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+
+                    <form asp-action="SubmitPermitValidation" method="post">
+                        <div class="row">
+                            <h5 class="fw-semibold">From</h5>
+                            <div class="mb-3 col-md-6">
+                                <label for="dateRequestedFrom" class="form-label">Date Requested</label>
+                                <input type="date" name="DateRequestedFrom" class="form-control" id="dateRequestedFrom" required />
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="scheduleTimeFrom" class="form-label">Time</label>
+                                <input type="time" name="ScheduleTimeFrom" class="form-control" id="scheduleTimeFrom" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <h5 class="fw-semibold">To</h5>
+                            <div class="mb-3 col-md-6">
+                                <label for="dateRequestedTo" class="form-label">Date Requested</label>
+                                <input type="date" name="DateRequestedTo" class="form-control" id="dateRequestedTo" required />
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="scheduleTimeTo" class="form-label">Time</label>
+                                <input type="time" name="ScheduleTimeTo" class="form-control" id="scheduleTimeTo" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <h5 class="fw-semibold">LIST OF CONTRACTORS / PERSONNEL</h5>
+                            <div class="mb-3 col-md-6">
+                                <label for="contractor1" class="form-label">Contractors / Personnel</label>
+                                <input type="text" name="Contractor1" class="form-control" id="contractor1" placeholder="Enter Full Name" required>
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="contractor2" class="form-label">Contractors / Personnel</label>
+                                <input type="text" name="Contractor2" class="form-control" id="contractor2" placeholder="Enter Full Name" required>
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="contractor3" class="form-label">Contractors / Personnel</label>
+                                <input type="text" name="Contractor3" class="form-control" id="contractor3" placeholder="Enter Full Name" required>
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="contractor4" class="form-label">Contractors / Personnel</label>
+                                <input type="text" name="Contractor4" class="form-control" id="contractor4" placeholder="Enter Full Name" required>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div> *@
+
+
+@section Scripts {
+    @* Validation and Bootstrap Bundle JS *@
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+}

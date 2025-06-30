@@ -2,13 +2,14 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace YourProjectNamespace.Controllers
 {
-    public class ProfileController : Controller
+    public class WorkOrderController : Controller
     {
-        public IActionResult AdminProfile()
+        public IActionResult RepairRequest() //Tenant
         {
             return View();
         }
-        public IActionResult TenantProfile()
+
+        public IActionResult RepairRequestDetails() //Admin
         {
             return View();
         }
