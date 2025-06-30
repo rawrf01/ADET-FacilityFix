@@ -2,16 +2,17 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FacilityFix.Controllers
 {
-    public class WorkOrderController : Controller
+    public class DashboardController : Controller
     {
-        public IActionResult WorkorderAccept()//Admin
+        public IActionResult Admin_Home()
         {
             return View();
         }
-        public IActionResult RepairRequest() //Tenant
+        public IActionResult TenantHome()
         {
             return View();
         }
-    }
 }
+}
+
 

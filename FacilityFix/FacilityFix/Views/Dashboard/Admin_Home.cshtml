@@ -1,0 +1,109 @@
+@{
+    ViewBag.Title = "Dashboard";
+    ViewBag.ActiveMenu = "Admin_Home";
+}
+@section Styles {
+    <link href="~/Content/admin_home.css" rel="stylesheet" />
+}
+
+<div class="container-fluid px-4 py-3">
+
+    <h4 class="mb-4">Welcome, Admin</h4>
+
+    <!-- Dashboard summary boxes -->
+    <div class="row g-3 mb-4">
+        <div class="col-md-3">
+            <div class="summary-card bg-white p-3 rounded shadow-sm d-flex align-items-center justify-content-between">
+                <div>
+                    <small class="text-muted">COMPLETED TASKS</small>
+                    <h3 class="mb-0">42</h3>
+                </div>
+                <div class="summary-icon bg-blue">
+                    <img src="~/img/Bluebox.png" alt="Iconpng"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="summary-card bg-white p-3 rounded shadow-sm d-flex align-items-center justify-content-between">
+                <div>
+                    <small class="text-muted">ACTIVE WORK ORDERS</small>
+                    <h3 class="mb-0">2</h3>
+                </div>
+                <div class="summary-icon bg-green">
+                    <img src="~/img/GreenCalendarC.png" alt="Iconpng"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="summary-card bg-white p-3 rounded shadow-sm d-flex align-items-center justify-content-between">
+                <div>
+                    <small class="text-muted">SCHEDULED REPAIR TASKS</small>
+                    <h3 class="mb-0">1</h3>
+                </div>
+                <div class="summary-icon bg-yellow">
+                    <img src="~/img/YellowSpeaker.png" alt="Iconpng"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="summary-card bg-white p-3 rounded shadow-sm d-flex align-items-center justify-content-between">
+                <div>
+                    <small class="text-muted">PENDING REQUESTS</small>
+                    <h3 class="mb-0">6</h3>
+                </div>
+                <div class="summary-icon bg-red">
+                    <img src="~/img/RedRefresh.png" alt="Iconpng"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pending Requests Table -->
+    <div class="card shadow-sm border-primary border-1">
+        <div class="card-header bg-white d-flex justify-content-between align-items-center">
+            <h5 class="mb-0">Pending Requests</h5>
+            <a asp-controller="WorkOrder" asp-action="WorkOrderAccept">See All</a>
+        </div>
+        <div class="card-body p-0">
+            <table class="table mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>TASK</th>
+                        <th>DATE</th>
+                        <th>STAFF</th>
+                        <th>STATUS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Leaking Faucet</td>
+                        <td>March 1, 2025</td>
+                        <td>Mike Jhonson</td>
+                        <td><span class="badge-status bg-soft-warning text-warning">In Progress</span></td>
+                    </tr>
+                    <tr>
+                        <td>AC Maintenance</td>
+                        <td>April 28, 2025</td>
+                        <td>Sarah Smith</td>
+                        <td><span class="badge-status bg-soft-success text-success">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>Door Lock Issue</td>
+                        <td>May 25, 2025</td>
+                        <td>Tom Wilson</td>
+                        <td><span class="badge-status bg-soft-primary text-primary">Scheduled</span></td>
+                    </tr>
+                    <tr>
+                        <td>Door Lock Issue</td>
+                        <td>May 25, 2025</td>
+                        <td>Tom Wilson</td>
+                        <td><span class="badge-status bg-soft-primary text-primary">Scheduled</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

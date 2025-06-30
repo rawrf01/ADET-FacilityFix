@@ -5,6 +5,30 @@
       "PackagePath": "staticwebassets\\FacilityFix.583rx5kor3.bundle.scp.css"
     },
     {
+<<<<<<< HEAD
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\WorkorderAccept.css",
+      "PackagePath": "staticwebassets\\css\\WorkorderAccept.css"
+    },
+    {
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\admin_home.css",
+      "PackagePath": "staticwebassets\\css\\admin_home.css"
+    },
+    {
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
+    },
+    {
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\signup.css",
+      "PackagePath": "staticwebassets\\css\\signup.css"
+=======
       "Id": "C:\\Users\\Asset\\Documents\\GitHub\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\layout.css",
       "PackagePath": "staticwebassets\\css\\layout.css"
     },
@@ -15,18 +39,76 @@
     {
       "Id": "C:\\Users\\Asset\\Documents\\GitHub\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+>>>>>>> main
     },
     {
       "Id": "C:\\Users\\Asset\\Documents\\GitHub\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+<<<<<<< HEAD
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\BlueBox.png",
+      "PackagePath": "staticwebassets\\img\\BlueBox.png"
+    },
+    {
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\GreenCalendarC.png",
+      "PackagePath": "staticwebassets\\img\\GreenCalendarC.png"
+    },
+    {
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\RedRefresh.png",
+      "PackagePath": "staticwebassets\\img\\RedRefresh.png"
+    },
+    {
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\YellowSpeaker.png",
+      "PackagePath": "staticwebassets\\img\\YellowSpeaker.png"
+    },
+    {
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\building.png",
+      "PackagePath": "staticwebassets\\img\\building.png"
+    },
+    {
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\calendar.png",
+      "PackagePath": "staticwebassets\\img\\calendar.png"
+    },
+    {
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\eye-off.png",
+      "PackagePath": "staticwebassets\\img\\eye-off.png"
+    },
+    {
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\leftpartgraphics.png",
+      "PackagePath": "staticwebassets\\img\\leftpartgraphics.png"
+    },
+    {
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\lock.png",
+      "PackagePath": "staticwebassets\\img\\lock.png"
+    },
+    {
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\mail.png",
+      "PackagePath": "staticwebassets\\img\\mail.png"
+    },
+    {
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\user.png",
+      "PackagePath": "staticwebassets\\img\\user.png"
+    },
+    {
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "C:\\ADET-FacilityFix\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\js\\signup.js",
+      "PackagePath": "staticwebassets\\js\\signup.js"
+=======
       "Id": "C:\\Users\\Asset\\Documents\\GitHub\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\img\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
       "Id": "C:\\Users\\Asset\\Documents\\GitHub\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+>>>>>>> main
     },
     {
       "Id": "C:\\Users\\Asset\\Documents\\GitHub\\ADET-FacilityFix\\FacilityFix\\FacilityFix\\wwwroot\\lib\\bootstrap\\LICENSE",

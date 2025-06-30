@@ -8,10 +8,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - FacilityFix</title>
+    <title>@ViewData["Title"] - Login</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/signup.css" asp-append-version="true" />
-    <script src="~/js/signup.js" asp-append-version="true" defer></script>
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+    <script src="~/js/login.js" asp-append-version="true" defer></script>
 </head>
 
 <body class="overflow-hidden">
@@ -35,27 +35,12 @@
             <!-- Right Form Panel -->
             <div class="col-md-6 d-flex align-items-center justify-content-center bg-light">
                 <div class="w-75 my-5 mx-5">
-                    <h3 class="fw-bold mb-2">Create an Account</h3>
-                    <p class="text-muted">Welcome! Please enter your detail</p>
+                    <h3 class="fw-bold mb-2">Sign in to your Account</h3>
+                    <p class="text-muted">Welcome back! Please enter your detail</p>
 
                     <form asp-action="Register" method="post">
-                        <div class="position-relative mt-4 mb-3">
-                            <input type="text" name="Username" class="form-control ps-5" placeholder="Username" oninput="toggleIcon(this)" required />
-                            <img src="~/img/user.png" alt="Email icon" class="icon-inside">
-                        </div>
-
-                        <div class="position-relative mb-3">
-                            <input type="date" name="DateOfBirth" class="form-control ps-5" oninput="toggleIcon(this)" required />
-                            <img src="~/img/calendar.png" alt="Email icon" class="icon-inside">
-                        </div>
-
-                        <div class="position-relative mb-3">
-                            <input type="text" name="UnitNumber" class="form-control ps-5" placeholder="Unit Number" oninput="toggleIcon(this)" required />
-                            <img src="~/img/building.png" alt="Email icon" class="icon-inside">
-                        </div>
-
-                        <div class="position-relative mb-3">
-                            <input type="email" name="Email" class="form-control ps-5" placeholder="Email" oninput="toggleIcon(this)" required/>
+                        <div class="mb-3 position-relative">
+                            <input type="email" name="Email" class="form-control ps-5" placeholder="Email" required oninput="toggleIcon(this)" />
                             <img src="~/img/mail.png" alt="Email icon" class="icon-inside">
                         </div>
 
@@ -67,34 +52,29 @@
                             </span>
                         </div>
 
-                        <div class="form-check my-3">
-                            <input class="form-check-input" type="checkbox" id="termsCheck" required />
-                            <small class="form-check-label" for="termsCheck">
-                                By creating an account you agree to the <a href="#">Terms & Conditions</a> and our <a
-                                    href="#">Privacy Policy</a>.
-                            </small>
+                        <div class="d-flex justify-content-between align-items-center my-3">
+                            <div class="form-check m-0">
+                                <input class="form-check-input" type="checkbox" id="rememberme">
+                                <label class="form-check-label" for="rememberme">
+                                Remember me
+                                </label>
+                            </div>
+                            <a href="#" class="text-decoration-none">Forgot Password?</a>
                         </div>
 
                         <div class="d-grid">
-                            <button type="submit" class="btn btn-primary btn-block">Create an Account</button>
+                            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
                         </div>
 
                         <div class="text-center mt-3">
                             <label class="form-check-label">
-                                    Already have an account? <a asp-controller="Home" asp-action="Login">Log In</a>
+                                    Don't have an Account? <a asp-controller="Home" asp-action="Index">Sign Up</a>
                             </label>
                         </div>
                     </form>
-
                     <div class="text-center mt-3">
-                        <a asp-controller="Profile" asp-action="TenantProfile">Profile</a>
+                        <a asp-controller="Dashboard" asp-action="Admin_Home">Home</a>
                     </div>
-
-                    <div class="text-center mt-3"></div>
-                        <span>Already have an account?</span>
-                        <a asp-controller="Account" asp-action="Login" class="ms-1">Log In</a>
-                    </div>
-                    
                 </div>
             </div>
         </div>

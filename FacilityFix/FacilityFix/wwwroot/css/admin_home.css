@@ -1,0 +1,55 @@
+.summary-card {
+    min-height: 100px;
+}
+
+.summary-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+.bg-blue {
+    background-color: #dbeafe; /* light blue */
+    color: #3b82f6;
+}
+
+.bg-green {
+    background-color: #dcfce7;
+    color: #22c55e;
+}
+
+.bg-yellow {
+    background-color: #fef9c3;
+    color: #eab308;
+}
+
+.bg-red {
+    background-color: #fee2e2;
+    color: #ef4444;
+}
+
+/* Soft badge status colors */
+.badge-status {
+    padding: 4px 10px;
+    font-size: 0.85rem;
+    border-radius: 12px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.bg-soft-warning {
+    background-color: #fff7e6;
+}
+
+.bg-soft-success {
+    background-color: #e6fff2;
+}
+
+.bg-soft-primary {
+    background-color: #eef4ff;
+}

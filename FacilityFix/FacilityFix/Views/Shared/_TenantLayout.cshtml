@@ -1,4 +1,4 @@
-﻿﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -20,7 +20,8 @@
         </div>
         <div class="sidebar-menu">
             <div class="menu-section">
-                <a class="sidebar-link" asp-controller="Dashboard" asp-action="Admin_Home">
+                <a class="sidebar-link @(ViewBag.ActiveMenu == "Dashboard" ? "active" : "")"
+                    href="@Url.Action("TenantHome", "Dashboard")">
                     <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                         <path d="M3 12L12 4l9 8" />
                         <path d="M5 12v8h14v-8" />
@@ -28,13 +29,15 @@
                     </svg>
                     Home
                 </a>
-                <a class="sidebar-link" asp-controller="WorkOrder" asp-action="WorkorderAccept">
+                <a class="sidebar-link @(ViewBag.ActiveMenu == "Work Orders" ? "active" : "")"
+                    href="@Url.Action("RepairRequest", "WorkOrder")">
                     <svg fill="none" stroke="currentColor" stroke-width="2"viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="me-2" width="24" height="24">
                         <path d="M14.7 6.3a5 5 0 0 1-6.4 6.4l-4.2 4.2a2 2 0 1 0 2.8 2.8l4.2-4.2a5 5 0 0 1 6.4-6.4l-2.8-2.8z" />
                     </svg>
-                    Work Orders
+                    Repair Request
                 </a>
-                <a class="sidebar-link" asp-controller="Profile" asp-action="Profile">
+                <a class="sidebar-link @(ViewBag.ActiveMenu == "Profile" ? "active" : "")"
+                    href="@Url.Action("TenantProfile", "Profile")">
                     <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                         <circle cx="12" cy="7" r="4" />
                         <path d="M5.5 21a8.38 8.38 0 0113 0" />
@@ -52,6 +55,8 @@
                 </svg>
                 Settings
             </a>
+
+            <!-- Logout -->
             <a class="footer-link" href="@Url.Action("Login", "Home")">
                 <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path d="M17 16l4-4m0 0l-4-4m4 4H7" />
@@ -59,8 +64,11 @@
                 </svg>
                 Logout
             </a>
+
         </div>
     </aside>
+
+    <!-- Header -->
     <main class="main-content">
         <div class="topbar">
             <div class="search-container">
@@ -72,10 +80,19 @@
             </div>
             <div class="topbar-icons">
                 <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="3" />
+                    <path
+                        d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 01-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51v.17a2 2 0 01-4 0v-.17a1.65 1.65 0 00-1-1.51 1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.17a1.65 1.65 0 001.51-1 1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06a1.65 1.65 0 001.82.33h.17a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.17a1.65 1.65 0 001 1.51h.17a1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06a1.65 1.65 0 00-.33 1.82v.17a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.17a1.65 1.65 0 00-1.51 1z" />
+                </svg>
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path
                         d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11c0-3.07-1.64-5.64-5-6.32V4a2 2 0 10-4 0v.68C6.64 5.36 5 7.929 5 11v3.159c0 .538-.214 1.055-.595 1.436L3 17h5m4 0v1a3 3 0 11-6 0v-1m6 0H9" />
                 </svg>
-                <img class="topbar-avatar" src="https://randomuser.me/api/portraits/men/32.jpg" alt="User" />
+
+                <!-- User Profile -->
+                <a href="@Url.Action("TenantProfile", "Profile")">
+                    <img class="topbar-avatar" src="https://randomuser.me/api/portraits/men/32.jpg" alt="User" />
+                </a>
             </div>
         </div>
         <div style="padding:32px;">
